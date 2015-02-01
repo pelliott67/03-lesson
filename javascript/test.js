@@ -6,10 +6,10 @@ var firstName = "Paul";
 var lastName = "Elliott";
 
 var message = firstName + " " + lastName;
-
+/*
 var string1 = document.getElementById("string1");
 string1.innerHTML = message;
-
+*/
 
 var imagePath = 'images/water-color/thumbs/artwork_01.jpg';
 //console.log(imagePath);
@@ -46,7 +46,7 @@ imageList[5] = "images/oil/thumbs/artwork_6.jpg";
 imageList[6] = "images/oil/thumbs/artwork_7.jpg";
 
 var imagePlaceholder = document.getElementById('placeholder');
-imagePlaceholder.setAttribute("src", imageList[1]);
+imagePlaceholder.setAttribute("src", imageList[0]);
 
 imageList.push("images/oil/thumbs/artwork_8.jpg");
 console.log(imageList.length);
@@ -82,6 +82,6 @@ function dynamicGreeting() {
     
         
     for(var i=0; i < 50; i++) {
-        console.log("the loop as run for " + i + " times.")'
+        console.log("the loop as run for " + i + " times.");
     }
 }
