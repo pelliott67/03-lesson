@@ -24,11 +24,8 @@ function changeImage() {
     } else {
         nextImage = imageList[(currentImageNumber)];
         imageToDisplay = nextImage; 
-        //alert(nextImage);
     }
-    image.setAttribute("src", imageToDisplay);
-
     
-    //alert(imageList.length + " " + imageIndex + " " + imageToDisplay + " " + imageList[(imageIndex++)]);
+    image.setAttribute("src", imageToDisplay);
 
 }
