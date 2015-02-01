@@ -19,11 +19,10 @@ function changeImage() {
     var imageIndex = (currentImageNumber - 1); 
 
     if (imageIndex == (imageList.length) - 1) { // if you're alread on the last image, go back to the first one
-        imageToDisplay = imageList[0];
+        var imageToDisplay = imageList[0];
         
     } else {
-        nextImage = imageList[(currentImageNumber)];
-        imageToDisplay = nextImage; 
+        imageToDisplay = imageList[(currentImageNumber)];
     }
     
     image.setAttribute("src", imageToDisplay);
